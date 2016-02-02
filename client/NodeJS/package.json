@@ -1,0 +1,10 @@
+{
+	"name": "remote-tile",
+	"version": "1.0.0",
+	"main": "remote-tile.js",
+	"author": "Francesco Cannizzaro",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {},
+	"description": ""
+}
