@@ -28,7 +28,7 @@ Cyanogenmod Custom Tile (Client + [Android](#custom-tile))
 <img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshoot/editor.png" width=300 />
 <img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshoot/tiles.png" width=300 />
 <img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshoot/tile_expanded.png" width=300 />
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshoot/ask.png" width=300 />
+<img id="ask" src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshoot/ask.png" width=300 />
 
 ## License
 MIT Francesco Cannizzaro
