@@ -23,12 +23,12 @@ Cyanogenmod Custom Tile (Client + [Android](#custom-tile))
 - Almost [1000 icons](https://design.google.com/icons/) (category based)
 - Dinamic input asking using **ask** as "data/args" [see](#ask)
 
-### Screenshoot
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshoot/main.png" width=300 />
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshoot/editor.png" width=300 />
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshoot/tiles.png" width=300 />
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshoot/tile_expanded.png" width=300 />
-<img id="ask" src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshoot/ask.png" width=300 />
+### Screenshot
+<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/main.png" width=300 />
+<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/editor.png" width=300 />
+<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/tiles.png" width=300 />
+<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/tile_expanded.png" width=300 />
+<img id="ask" src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/ask.png" width=300 />
 
 ## License
 MIT Francesco Cannizzaro
