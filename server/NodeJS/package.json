@@ -1,0 +1,27 @@
+{
+	"name": "remote-tile",
+	"version": "1.0.5",
+	"main": "remote-tile.js",
+	"author": "Francesco Cannizzaro",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {},
+	"description": "Cyanogenmod Custom Tile (NodeJS Server)",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FrancisCan/Remote-Tile.git"
+	},
+	"keywords": [
+    "android",
+    "cyanogenmod",
+    "tiles",
+    "remote"
+  ],
+	"bugs": {
+		"url": "https://github.com/FrancisCan/Remote-Tile/issues"
+	},
+	"homepage": "https://github.com/FrancisCan/Remote-Tile/server/NodeJS#readme"
+}
