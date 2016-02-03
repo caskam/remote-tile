@@ -5,6 +5,8 @@ import com.github.franciscan.remotetile.model.Command;
 import com.pixplicity.easyprefs.library.Prefs;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -40,6 +42,21 @@ public class Datastore {
                                 .withData(m.group(2))
                                 .withIcon(Prefs.getInt(key, R.drawable.ic_desktop_windows_white_24dp))
                 );
+
+        order();
+
+    }
+
+    /**
+     * Reorder List of commands
+     */
+    private void order() {
+        Collections.sort(commands, new Comparator<Command>() {
+            @Override
+            public int compare(Command t1, Command t2) {
+                return t1.getEvent().compareTo(t1.getEvent());
+            }
+        });
     }
 
     /**
@@ -60,6 +77,7 @@ public class Datastore {
                         .withData(data)
                         .withIcon(icon)
         );
+        order();
     }
 
     /**

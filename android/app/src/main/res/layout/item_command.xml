@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
         android:layout_toEndOf="@+id/icon"
         android:layout_toRightOf="@+id/icon"
         android:orientation="vertical">
@@ -31,7 +32,7 @@
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
             android:textSize="14sp"
-            android:text="event"
+            android:text="@string/event"
             tools:text="event" />
 
         <TextView
@@ -42,8 +43,7 @@
             android:textColor="@android:color/white"
             android:alpha=".7"
             android:textSize="13sp"
-            android:text="data / args"
-            tools:text="echo 'test'" />
+            android:text="@string/data" />
 
     </LinearLayout>
 </RelativeLayout>

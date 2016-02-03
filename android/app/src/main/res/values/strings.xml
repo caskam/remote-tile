@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Remote Tile</string>
     <string name="settings">Settings</string>
-    <string name="ipaddress">IP ADDRESS</string>
-    <string name="port">PORT</string>
+    <string name="ipaddress">ip address</string>
+    <string name="port">prot</string>
+    <string name="data">data</string>
+    <string name="event">event</string>
+    <string name="icon">icon</string>
+    <string name="choose_icon">choose icon</string>
 </resources>

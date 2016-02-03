@@ -14,7 +14,7 @@ import android.widget.ListView;
 
 import com.github.franciscan.remotetile.activities.SettingsActivity;
 import com.github.franciscan.remotetile.adapter.CommandAdapter;
-import com.github.franciscan.remotetile.cyanogenmod.TilesReceiver;
+import com.github.franciscan.remotetile.cyanogenmod.TileReceiver;
 import com.github.franciscan.remotetile.fragment.Editor;
 import com.github.franciscan.remotetile.model.Command;
 import com.github.franciscan.remotetile.utils.Constant;
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Send Broadcast to {@link TilesReceiver}
+     * Send Broadcast to {@link TileReceiver}
      */
     public void updateTile() {
         sendBroadcast(new Intent(Constant.UPDATE_TILE));

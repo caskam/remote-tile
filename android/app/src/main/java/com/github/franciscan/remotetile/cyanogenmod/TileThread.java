@@ -28,7 +28,7 @@ public class TileThread extends Thread {
             Socket s = new Socket(Prefs.getString(Constant.IP_ADDRESS, ""), Prefs.getInt(Constant.PORT, 4545));
             if (s.isConnected()) {
                 PrintStream writer = new PrintStream(s.getOutputStream(), true);
-                writer.print(event + ":" + data);
+                writer.print(event + ":" + data.trim());
                 s.shutdownOutput();
                 s.close();
             }

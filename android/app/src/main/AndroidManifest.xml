@@ -35,7 +35,7 @@
             android:theme="@style/AppTheme.Transparent" />
 
         <receiver
-            android:name=".cyanogenmod.TilesReceiver"
+            android:name=".cyanogenmod.TileReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
