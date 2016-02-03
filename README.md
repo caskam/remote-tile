@@ -14,7 +14,7 @@ Don't ***waste*** your time :)
 - [x] [**NodeJS**](https://github.com/FrancisCan/Remote-Tile/tree/master/server/NodeJS)
 - [ ] Python
 
-# Custom Tile ++Cyanogenmod 12.1+++
+# Custom Tile Cyanogenmod 12.1+
 
 ## Setup
 - install the apk (*or build*) [Release 1.0.1](https://github.com/FrancisCan/Remote-Tile/releases/tag/1.0.1)
