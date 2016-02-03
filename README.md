@@ -14,7 +14,7 @@ Don't ***waste*** your time :)
 - [x] [**NodeJS**](https://github.com/FrancisCan/Remote-Tile/tree/master/server/NodeJS)
 - [ ] Python
 
-# Custom Tile
+# Custom Tile ++Cyanogenmod 12.1+++
 
 ## Setup
 - install the apk (*or build*) [Release 1.0.1](https://github.com/FrancisCan/Remote-Tile/releases/tag/1.0.1)
@@ -32,7 +32,7 @@ Don't ***waste*** your time :)
  - data
     - basic argument
     - **ask** input will be asked on tap
-    - **arg1,arg2,arg3** item will be asked on tap (checking regex is ```([^,],?)+[^,]$```)
+    - **arg1,arg2,arg3** item will be asked on tap (checking regex is ```[^,]+,([^,],?)+[^,]$```)
 
 ## Screenshot
 <img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/main.png" width=300 />

@@ -68,7 +68,7 @@ public class TileReceiver extends BroadcastReceiver {
      * Create a Pending Intent from a command string
      */
     private PendingIntent createIntent(Context ctx, int i, Command command) {
-        boolean activity = command.getData().equals("ask") || command.getData().matches("([^,],?)+[^,]$");
+        boolean activity = command.getData().equals("ask") || command.getData().matches("[^,]+,([^,],?)+[^,]$");
         Intent intent = activity ? new Intent(ctx, DialogActivity.class) : new Intent();
         intent.setAction(Constant.UPDATE_TILE);
         intent.putExtra(Constant.EVENT_EXTRA, command.getEvent());
