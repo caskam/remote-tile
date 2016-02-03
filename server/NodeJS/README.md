@@ -5,14 +5,14 @@ Cyanogenmod Custom Tile (NodeJS Server)
 
 - install ```npm install remote-tile```
 - create your custom events
-- run yout node script
+- run your node script
 
 ## Usage
 ```javascript
 var remoteTile = require("remote-tile");
 
 remoteTile
-	.add("event", fucntion(args){
+	.add("event", function(args){
 		console.log(args);
 	})
 	.start();
@@ -30,7 +30,7 @@ $ 09:50:22 [event=test] [data=hello]
 $ 09:50:29 [event=vlc] [data=play/pause]
 ```
 #### add(String event , Function fn)
-Pass a function to run when receive an "event"
+Pass a function to run when receive a custom event
 
 *throws Error if fn is not a function*
 
