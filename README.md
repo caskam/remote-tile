@@ -17,7 +17,7 @@ Don't ***waste*** your time :)
 # Custom Tile
 
 ## Setup
-- install the apk (*or build*) [Release 1.0.0](https://github.com/FrancisCan/Remote-Tile/releases/tag/1.0.0)
+- install the apk (*or build*) [Release 1.0.1](https://github.com/FrancisCan/Remote-Tile/releases/tag/1.0.1)
 - open settings and fill **IP ADDRESS** and **PORT**, *default = 4545*
 - add your custom command
 
