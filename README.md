@@ -35,12 +35,8 @@ Don't ***waste*** your time :)
     - **arg1,arg2,arg3** item will be asked on tap (checking regex is ```[^,]+,([^,],?)+[^,]$```)
 
 ## Screenshot
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/main.png" width=300 />
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/editor.png" width=300 />
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/tiles.png" width=300 />
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/tile_expanded.png" width=300 />
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/ask.png" width=300 />
-<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/android/screenshot/list.png" width=300 />
+<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/preview/1.png" width=650 />
+<img src="https://raw.githubusercontent.com/FrancisCan/Remote-Tile/master/preview/2.png" width=650 />
 
 ## License
 MIT Francesco Cannizzaro
